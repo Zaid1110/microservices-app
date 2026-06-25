@@ -1,1 +1,0 @@
-# cloudops-microservices-platform
