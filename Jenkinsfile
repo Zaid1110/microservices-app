@@ -14,7 +14,7 @@ pipeline {
         stage('Verify Deployment') {
             steps {
                 sh '''
-                kubectl get all -n webapps
+                kubectl get svc -n webapps
                 '''
             }
         }
