@@ -95,7 +95,7 @@ Stage 1: Checkout          // Clone repo, checkout service branch
 Stage 2: SonarQube Scan    // Static code analysis + quality gate
 Stage 3: Docker Build      // Build image, tag with build number
 Stage 4: Trivy Scan        // Container vulnerability scan (CVE)
-Stage 5: Push to ECR       // Push image to AWS ECR (ap-south-1)
+Stage 5: Push to ECR       // Push image to AWS ECR (us-east-1)
 Stage 6: Update Manifests  // Update image tag in K8s YAML (GitOps repo)
 ```
 
